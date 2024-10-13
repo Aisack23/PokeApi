@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial';
+    background-color: #fff;
+    margin: 0;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.menu {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #494949;
+    color: white;
+}
+
+h1 {
+    color: #FFCC00;
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0px;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a3a3a3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00000038;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+h3, p {
+    color: #333;
+    margin: 5px 0;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.remove-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
